@@ -10,7 +10,7 @@
 3. Optionally run `npm run check` for TypeScript validation.
 
 ## Deployment notes
-- Vite base path is `/musical-interpretation-explorer/` to match the GitHub Pages repository URL.
+- Vite base path is `/musical-interpretation-exploration/` to match the GitHub Pages repository URL.
 - The production build outputs to `dist/public`.
 - The included Express server is used for local development and build-serving flows.
 

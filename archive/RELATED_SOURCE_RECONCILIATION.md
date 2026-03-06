@@ -1,7 +1,7 @@
 # Related Source Reconciliation
 
 ## Canonical project
-- Canonical repo: `Musical Interpretation Explorer`
+- Canonical repo: `Musical Interpretation Exploration`
 - Canonical source baseline: former `aheinz92/phd-demo`
 
 ## Related source reviewed

@@ -45,9 +45,9 @@ export async function setupVite(app: Express, server: Server) {
   app.use("*", async (req, res, next) => {
     let processedUrl = req.originalUrl;
 
-    // viteConfig.base is '/musical-interpretation-explorer/' (ends with a slash)
-    // If req.originalUrl is '/musical-interpretation-explorer' (base without trailing slash),
-    // then pass '/musical-interpretation-explorer/' to transformIndexHtml for consistency.
+    // viteConfig.base is '/musical-interpretation-exploration/' (ends with a slash)
+    // If req.originalUrl is '/musical-interpretation-exploration' (base without trailing slash),
+    // then pass '/musical-interpretation-exploration/' to transformIndexHtml for consistency.
     if (viteConfig.base && viteConfig.base.endsWith('/') && req.originalUrl === viteConfig.base.slice(0, -1)) {
       processedUrl = viteConfig.base;
     }

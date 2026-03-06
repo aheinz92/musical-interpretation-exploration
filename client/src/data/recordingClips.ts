@@ -130,8 +130,8 @@ const createRecordingClip = (parsedInfo: ParsedFilename, audioDir: string, graph
   const { pianistFirstName, pianistLastName, section, year, recordLabel, isLive, originalFilename } = parsedInfo;
   // ID generation based on explicit example: pianistLastName-section-year-recordLabel
   const id = `${pianistLastName}-${section}-${year}-${recordLabel}`; // Use original case for section
-  // audioDir is like '/assets/audio/clips_for_part_A'. BASE_URL is like '/musical-interpretation-explorer/'
-  // We want '/musical-interpretation-explorer/assets/audio/clips_for_part_A/filename.mp3'
+  // audioDir is like '/assets/audio/clips_for_part_A'. BASE_URL is like '/musical-interpretation-exploration/'
+  // We want '/musical-interpretation-exploration/assets/audio/clips_for_part_A/filename.mp3'
   const audioSrc = `${import.meta.env.BASE_URL.replace(/\/$/, '')}${audioDir}/${originalFilename}`;
 
   let frontArtSrc = findArtPath(pianistLastName, 'front');

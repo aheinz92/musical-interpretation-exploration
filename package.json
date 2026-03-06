@@ -1,8 +1,8 @@
 {
-  "name": "musical-interpretation-explorer",
+  "name": "musical-interpretation-exploration",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://aheinz92.github.io/musical-interpretation-explorer",
+  "homepage": "https://aheinz92.github.io/musical-interpretation-exploration",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",

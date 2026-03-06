@@ -6,7 +6,7 @@ import '../styles/musical-explorer-page.css';
 const MusicalExplorerPage: React.FC = () => {
   return (
     <div className="musical-explorer-page-container">
-      <h1>Musical Explorer Showcase</h1>
+      <h1>Interactive Musical Interpretation Prototype</h1>
 
       <MusicalExplorer />
 
