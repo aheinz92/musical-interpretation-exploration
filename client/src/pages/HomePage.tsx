@@ -21,12 +21,12 @@ const HomePage: React.FC = () => {
   return (
     <div className="home-page-container">
       <div className="home-links-wrapper">
-        <h1 className="home-title">Welcome</h1>
-        <Link href="/phd-proposal" className="home-link-button">
-          Full PhD Proposal
+        <h1 className="home-title">Musical Interpretation Explorer</h1>
+        <Link href="/proposal" className="home-link-button">
+          Read the full proposal
         </Link>
         <Link href="/explorer" className="home-link-button">
-          Demo of the Musical Explorer tool
+          Open the interactive explorer
         </Link>
       </div>
     </div>

@@ -3,7 +3,6 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { MusicalExplorer } from "@/components/MusicalExplorer";
 import NotFound from "@/pages/not-found";
 import PhdProposalPage from './pages/PhdProposalPage';
 import MusicalExplorerPage from "./pages/MusicalExplorerPage";
@@ -17,6 +16,7 @@ function AppRouter() { // Renamed function to avoid conflict with WouterRouter
     <WouterRouter base={wouterBase}>
       <Switch>
         <Route path="/" component={HomePage} /> {/* Changed component to HomePage */}
+        <Route path="/proposal" component={PhdProposalPage} />
         <Route path="/phd-proposal" component={PhdProposalPage} />
         <Route path="/explorer" component={MusicalExplorerPage} />
         <Route component={NotFound} /> {/* This will now correctly catch unmatched routes within the base */}

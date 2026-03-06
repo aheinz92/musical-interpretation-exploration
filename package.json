@@ -1,8 +1,8 @@
 {
-  "name": "rest-express",
+  "name": "musical-interpretation-explorer",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://aheinz92.github.io/phd-demo",
+  "homepage": "https://aheinz92.github.io/musical-interpretation-explorer",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
